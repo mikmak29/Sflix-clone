@@ -13,3 +13,19 @@
 .footer-child-style-link>a {
     @apply text-white text-sm font-montserrat text-center select-none
 }
+
+.home-aside-child>div {
+    @apply w-full flex items-center gap-4
+}
+
+.home-aside-child-link>div>a {
+    @apply text-[#D4D4D4] text-xs font-medium select-none
+}
+
+.home-aside-genre>a {
+    @apply p-[0.4rem] rounded-md border border-[#222222] transform text-[#9d9d9d] text-[0.7rem] select-none
+}
+
+.home-aside-genre>a:hover {
+    @apply transition-all duration-500 ease-in-out text-white border-[#D4D4D4] translate-x-3
+}

@@ -1,7 +1,13 @@
 import React from 'react'
+import Header from './Header'
+import HeroSection from './HeroSection'
 
 export default function Home() {
+
     return (
-        <div>Home</div>
+        <div className='w-screen h-auto'>
+            <Header />
+            <HeroSection />
+        </div>
     )
 }
