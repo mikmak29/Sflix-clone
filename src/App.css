@@ -1,0 +1,15 @@
+.nav-curve {
+    @apply after:content-[''] after:absolute after:-top-[0.2rem] after:-left-4 after:z-50 after:size-[20px] after:border-[4px] after:border-b-transparent after:border-l-transparent after:border-[#2F3441] after:rounded-tr-xl after:md:hidden
+}
+
+.nav-child-style>div {
+    @apply w-full flex justify-between items-center select-none cursor-pointer md:w-fit
+}
+
+.nav-child-style-link>div>a {
+    @apply text-white text-[14px] font-montserrat select-none
+}
+
+.footer-child-style-link>a {
+    @apply text-white text-sm font-montserrat text-center select-none
+}
